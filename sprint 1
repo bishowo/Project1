@@ -1,0 +1,10 @@
+/your-project-name
+├── frontend
+│   ├── index.html
+│   ├── styles.css
+│   └── scripts.js
+├── backend
+│   ├── server.py
+│   └── database.py
+├── README.md
+└── LICENSE
