@@ -28,13 +28,7 @@ jobs:
         run: npm build
 
       - name: Deploy to Staging
-        run: |
-          # Add your deployment script or commands here
-          # For example, deploying to a staging environment using SSH:
-          ssh user@staging-server 'cd /path/to/project && git pull origin main && npm install && npm run build && pm2 restart your-app'
+        run: ssh user@staging-server 'cd /path/to/project && git pull origin main && npm install && npm run build && pm2 restart your-app'
 
       - name: Deploy to Production
-        run: |
-          # Add your production deployment script or commands here
-          # For example, deploying to a production environment using SSH:
-          ssh user@production-server 'cd /path/to/project && git pull origin main && npm install && npm run build && pm2 restart your-app'
+        run: ssh user@production-server 'cd /path/to/project && git pull origin main && npm install && npm run build && pm2 restart your-app'
