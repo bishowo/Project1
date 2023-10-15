@@ -1,3 +1,0 @@
-
-
-[The Gyan Jyoti](https://thegyanjyoti.com)
